@@ -8,6 +8,8 @@ const RightHandside = () => {
   
     const visitedRestaurent=() =>{
      console.log("visitedRestaurent")
+
+     alert("Already Visited Restuarent")
   
     }
 

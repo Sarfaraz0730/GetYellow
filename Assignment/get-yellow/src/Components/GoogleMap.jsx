@@ -8,6 +8,8 @@ const GoogleMap = () => {
 
     const handleinput =(e) =>{
       e.preventDefault()
+
+      console.log( "Restuarent You are looking for " , e.target.value)
     }
   
     

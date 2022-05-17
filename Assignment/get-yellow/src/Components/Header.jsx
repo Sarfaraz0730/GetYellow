@@ -20,7 +20,6 @@ const Header = () => {
               FoodGuru
             </h6>
           </div>
-
           <div className="comName">
             <h6
               className="
@@ -29,15 +28,26 @@ const Header = () => {
               Home
             </h6>
           </div>
-        </div>
-        <div className="comName">
-          <h6
-            className="
+
+          <div className="comName">
+            <h6
+              className="
           comName"
-          >
-            Service
-          </h6>
+            >
+              Service
+            </h6>
+          </div>
+
+          <div className="comName">
+            <h6
+              className="
+          comName"
+            >
+              About
+            </h6>
+          </div>
         </div>
+      
       </div>
 
       <div className="body">

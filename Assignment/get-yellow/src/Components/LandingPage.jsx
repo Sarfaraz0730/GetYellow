@@ -23,7 +23,7 @@ const LandingPage = () => {
 
     const handleClick= () =>{
         console.log("clicked")
-        getResturentDetails()
+       alert(" Restuarent Near by You ")
        
     }
   return (
