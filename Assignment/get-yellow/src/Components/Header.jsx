@@ -10,8 +10,15 @@ const Header = () => {
           <div className='logoDiv' >
             <div>  <img className='logo' src={logo} alt="" /> </div>
           <div className='comName'><h6 className='
-          comName'>FoodyGuru</h6></div>
+          comName'>FoodGuru</h6></div>
+
+<div className='comName'><h6 className='
+          comName'>Home</h6></div>
           </div>
+<div className='comName'><h6 className='
+          comName'>Service</h6></div>
+
+
           
                        
         </div>

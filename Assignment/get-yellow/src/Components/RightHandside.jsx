@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import Button from '@mui/material/Button';
 import './LandingPage.css'
 const RightHandside = () => {
     const [ten, setTen] = useState([])
     const visitedRestaurent=() =>{
      console.log("visitedRestaurent")
+     output()
     }
 
 
@@ -18,13 +20,22 @@ const RightHandside = () => {
     useEffect(()=>{
      getTopten()
     },[])
+
+
+    function output (){
+        ten.map( (e) =>{
+            return <div key={e.id}> Restaurant : {e.Restaurent_Name}    Location :  {e.Location}  <div className='avatar'> <img src={e.avatar} alt="" /> </div> </div> 
+            })
+    }
   return (
     <div>
       <div className='RightSide'>
 
           <h5>Past top 10 visited Restaurants</h5>
 
-          <button  onClick={visitedRestaurent} >Visted Restaurants </button>
+       
+          
+<Button variant="outlined"    onClick={visitedRestaurent}> Visted Restaurants  </Button>
 
 
           {

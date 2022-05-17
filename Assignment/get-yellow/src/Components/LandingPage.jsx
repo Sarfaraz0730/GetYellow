@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Button from '@mui/material/Button';
 import axios from 'axios'
 import './LandingPage.css'
 import RightHandside from "./RightHandside"
@@ -32,9 +33,10 @@ const LandingPage = () => {
 
     <div className="leftside">
               
-       <h1>google Map</h1>
+       <h5>Google Map</h5>
 
-<button onClick={handleClick}>Get A Restaurent Near by You</button>
+
+<Button variant="outlined"   onClick={handleClick}>   Restaurent Near by You </Button>
 {
 
 details.map( (e) =>{
