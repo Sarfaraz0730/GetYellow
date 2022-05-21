@@ -30,9 +30,22 @@ const GoogleMap = () => {
     },[])
 
 
+
+  // var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
+ 
+  // mapboxgl.accessToken = 'pk.eyJ1Ijoic2FyZmFyYXoyMjA3IiwiYSI6ImNsM2VvYm8zczBrY28zanB2cDg4bHJ2OWwifQ.vccN1hlkexgE7QnwCUmAIQ';
+  // var map = new mapboxgl.Map({
+  // container: 'YOUR_CONTAINER_ELEMENT_ID',
+  // style: 'mapbox://styles/mapbox/streets-v11'
+  // });
+
+
+
+
+
   return (
     <div>
-      <input type="text" name="" className="inputBox" onChange={ handleinput}  placeholder="Enter Restaurent Name" />
+      <input type="text" name="" className="inputBox"  placeholder="Enter Restaurent Name" />
     </div>
   )
 }
